@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+/* Color Scheme #E8EAE3 #373833 #FA2742 */
+
 html {
-    background-color: white;
+    background-color: #fefefe;
+    color: #373833;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -13,6 +16,7 @@ html {
 .header {
     display: flex;
     justify-content: center;
+    color: #3CBCC3;
 }
 
 p {
@@ -20,10 +24,10 @@ p {
 }
 
 a {
-    color: initial;
+    color: #3CBCC3;
     text-decoration: none;
 }
-.projects__list {
-    list-style-type: none;
-    padding-inline-start: 0;
+
+a:hover {
+    cursor: pointer;
 }
